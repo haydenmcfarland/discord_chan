@@ -1,24 +1,24 @@
-# String vs []byte
-No reason to force string input when you can use []byte.
+# Discord Chan (Go)
 
-# Errors
-the error string should never be capitalized nor end with a punctuation per Go standards
+## Summary:
 
-# if statement
+Discord Chan is a discord bot written in Go. 
+It is being used as a fun way to learn Golang.
 
-f, contains := something
-if contain {
-}
+## Features:
 
-Instead do 
+#### Implemented
+- Weather (using Weatherstack API)
+- Roll
+- Echo
+- FOAAS (for ping purposes)
+- Woof (Random Dog Pictures)
+- Gif (Gifs using GIPHY API)
 
-if f, contains := something; contains {
+Deployed via Heroku
 
-}
+## TODO:
 
-# Use iterative algorithms instead of recursive
-
-types - declares structs and possibly some mutators of these structs,
-repository - it’s a data storage layer that deals with storing and reading structs,
-service - would be the implementation of business logic that wraps repositories,
-http, websocket, … - the transport layers, which all invoke the service layer
+- integrate with Rasa ML natural language processing
+- add database to collect data for ML and other use cases
+- create web interface to register discord bot with channels
