@@ -3,7 +3,7 @@
 ## Summary:
 
 Discord Chan is a discord bot written in Go. 
-It is being used as a fun way to learn Golang.
+It is being used as a fun way to learn Go.
 
 ## Features:
 
