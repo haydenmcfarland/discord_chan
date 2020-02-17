@@ -22,3 +22,5 @@ Deployed via Heroku
 - integrate with Rasa ML natural language processing
 - add database to collect data for ML and other use cases
 - create web interface to register discord bot with channels
+
+![example](https://thumbs.gfycat.com/ZestyDirtyAssassinbug-size_restricted.gif)
