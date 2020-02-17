@@ -23,4 +23,4 @@ Deployed via Heroku
 - add database to collect data for ML and other use cases
 - create web interface to register discord bot with channels
 
-![example](https://thumbs.gfycat.com/ZestyDirtyAssassinbug-size_restricted.gif)
+![example](https://github.com/haydenmcfarland/assets/blob/master/images/discordchan.gif?raw=true)
