@@ -113,7 +113,7 @@ func commandHandler(s *discordgo.Session, m *discordgo.MessageCreate) {
 	}
 }
 
-//getRequest take 1 URL argument and 2 position argumetns params and headers
+//getRequest take 1 URL argument and 2 position arguments params and headers
 //defaults to application/json if header position argument is not provided
 func getRequest(URL string, args ...map[string]string) ([]byte, error) {
 	req, err := http.NewRequest("GET", URL, nil)
